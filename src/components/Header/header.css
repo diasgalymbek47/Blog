@@ -1,0 +1,26 @@
+.header {
+    background-color: #fdfdfd;
+    border-bottom: 1px solid #00000023;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.header__inner {
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.haeder__logo {
+    font-size: 20px;
+}
+
+.header__link {
+    font-weight: 500;
+    color: #333;
+}
+
+.header__link:hover {
+    color: #000;
+}
